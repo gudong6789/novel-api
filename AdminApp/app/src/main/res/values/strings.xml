@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">授权管理后台</string>
+    <string name="auth_code_manage">授权码管理</string>
+    <string name="device_manage">设备管理</string>
+    <string name="global_config">全局配置</string>
+    <string name="statistics">数据统计</string>
+    <string name="generate_code">生成授权码</string>
+    <string name="batch_generate">批量生成</string>
+    <string name="block_code">封禁</string>
+    <string name="unblock_code">解封</string>
+    <string name="delete_code">删除</string>
+    <string name="active">已激活</string>
+    <string name="unused">未使用</string>
+    <string name="blocked">已封禁</string>
+    <string name="expired">已过期</string>
+    <string name="permanent">永久</string>
+    <string name="days">天</string>
+    <string name="online">在线</string>
+    <string name="offline">离线</string>
+    <string name="total_devices">设备总数</string>
+    <string name="online_devices">在线设备</string>
+    <string name="total_codes">授权码总数</string>
+    <string name="active_codes">已激活</string>
+</resources>

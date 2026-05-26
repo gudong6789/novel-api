@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="授权时长"
+        android:textColor="#666666"
+        android:textSize="14sp"/>
+
+    <Spinner
+        android:id="@+id/spinnerDuration"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/spinner_bg"/>
+
+    <TextView
+        android:id="@+id/labelCount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="生成数量"
+        android:textColor="#666666"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/etCount"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:inputType="number"
+        android:paddingHorizontal="12dp"
+        android:text="10"
+        android:textColor="#1a1a2e"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="备注"
+        android:textColor="#666666"
+        android:textSize="14sp"/>
+
+    <EditText
+        android:id="@+id/etNotes"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/edit_text_bg"
+        android:hint="可选"
+        android:paddingHorizontal="12dp"
+        android:textColor="#1a1a2e"
+        android:textSize="16sp"/>
+
+</LinearLayout>

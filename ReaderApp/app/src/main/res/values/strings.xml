@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">自动阅读助手</string>
+    <string name="accessibility_service_description">本服务用于模拟真人阅读操作，包括自动翻页、滑动、点击等。开启后应用可以自动为您阅读小说。</string>
+    <string name="notification_channel_name">阅读服务</string>
+    <string name="notification_channel_description">小说自动阅读后台服务通知</string>
+    <string name="start_reading">开始运行</string>
+    <string name="stop_reading">停止运行</string>
+    <string name="pause">暂停</string>
+    <string name="resume">继续</string>
+    <string name="config">配置</string>
+    <string name="book_manage">书籍管理</string>
+    <string name="activation">授权激活</string>
+    <string name="status_running">运行中</string>
+    <string name="status_paused">已暂停</string>
+    <string name="status_stopped">已停止</string>
+    <string name="today_reading">今日阅读</string>
+    <string name="apps_used">已用 APP</string>
+</resources>
